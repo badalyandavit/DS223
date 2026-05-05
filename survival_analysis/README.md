@@ -1,5 +1,7 @@
 # Homework 3: Survival Analysis
 
+## NOTE: The report is in the outputs directory
+
 This repository implements the full DS 223 Homework 3 survival-analysis workflow for the `telco.csv` dataset.
 
 ## What is included
@@ -66,7 +68,7 @@ python src/homework3_survival.py --data data/telco.csv --output-dir outputs
 Optional parameters:
 
 ```bash
-python src/homework3_survival.py \
+python homework3_survival.py \
   --data data/telco.csv \
   --output-dir outputs \
   --monthly-margin 1300 \
